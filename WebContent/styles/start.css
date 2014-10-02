@@ -1,0 +1,36 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#leftBorder {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:90%;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#center {
+    width:400px;
+    padding:10px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;	 	 
+}
+#centerLeft {
+	float:left;
+}
+#centerRight {
+	float:left;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}

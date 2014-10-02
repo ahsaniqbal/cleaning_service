@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<link rel="stylesheet" type="text/css" href="styles/start.css">
+		<script type="text/javascript" src="scripts/jquery-1.11.1.js"></script>
+		<script type="text/javascript" src="scripts/start.js"></script>
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1>Cleaning Services</h1>
+		</div>
+		<div id="center">
+			<form action="">
+				<fieldset>
+					<legend>Basic Parameters</legend>
+					<div id="centerLeft">
+						<input type="radio" name="accessMethodRadio" id="accessMethodRadio" value="URL" checked="checked">
+						URL:
+						<br />
+						<input type="radio" name="accessMethodRadio" id="accessMethodRadio" value="File">
+						File:
+					</div>
+					<div id="centerCenter">
+						<input type="text" id="urlValue" name="urlValue">
+						<br />
+						<input type="file" id="fileValue" name="fileValue" >
+					</div>
+				</fieldset>
+				<!-- <fieldset> <legend>Quality Metrics</legend> -->
+					
+					<ul>
+						<li>
+							<input type="checkbox" name="metrics" value="Accuracy" id="accuracy">Accuracy
+							<ul>
+								<li>
+									<input type="checkbox" name="accuracySubMet" value="IncompartibleDatatypeRange" id="accuracySubMet1">Incompartible Datatype Range
+								</li>
+								<li>
+									<input type="checkbox" name="accuracySubMet" value="MalformedDatatypeLiterals" id="accuracySubMet2">Malformed Datatype Literals
+								</li>
+							</ul>
+						</li>
+						<li>
+							<input type="checkbox" name="metrics" value="Consistency" id="consistency">Consistency
+							<ul>
+								<li>
+									<input type="checkbox" name="consistencySubMet" value="HomogeneousDatatypes" id="consistencySubMet1">Homogeneous Datatypes
+								</li>
+								<li>
+									<input type="checkbox" name="consistencySubMet" value="MispacedClassesOrProperties" id="consistencySubMet2">Mispaced Classes Or Properties
+								</li>
+								<li>
+									<input type="checkbox" name="consistencySubMet" value="MususedOWLDatatypeOrObjectProperty" id="consistencySubMet3">Musused OWL Datatype Or Object Property
+								</li>
+								<li>
+									<input type="checkbox" name="consistencySubMet" value="OntologyHijacking" id="consistencySubMet4">Ontology Hijacking
+								</li>
+								<li>
+									<input type="checkbox" name="consistencySubMet" value="UndefinedClasses" id="consistencySubMet5">Undefined Classes
+								</li>
+								<li>
+									<input type="checkbox" name="consistencySubMet" value="UndefinedProperties" id="consistencySubMet6">Undefined Properties
+								</li>	
+							</ul>	
+						</li>
+						<li>
+							<input type="checkbox" name="metrics" value="Understandability" id="understandability">Understandability
+							<ul>
+								<li>
+									<input type="checkbox" name="understandabilitySubMet" value="EmptyAnnotationValue" id="understandabilitySubMet1">Empty Annotation Value
+								</li>
+								<li>
+									<input type="checkbox" name="understandabilitySubMet" value="LabelsUsingCapitals" id="understandabilitySubMet2">Labels Using Capitals		
+								</li>
+								<li>
+									<input type="checkbox" name="understandabilitySubMet" value="WhitespaceInAnnotation" id="understandabilitySubMet3">Whitespace In Annotation
+								</li>
+								<li>
+									<input type="checkbox" name="understandabilitySubMet" value="LowBlankNodeUsage" id="understandabilitySubMet4">Low Blank Node Usage
+								</li>
+							</ul>
+						</li>
+					</ul>
+					
+					<!-- -->
+			</form>
+		</div>
+	</body>
+</html>
