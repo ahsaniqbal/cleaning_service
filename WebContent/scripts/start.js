@@ -1,4 +1,3 @@
-
 $(function() {
 	$("input[name='metrics']").on("change", function() {
 		if($(this).val() === 'Accuracy') {
@@ -26,6 +25,8 @@ $(function() {
 			}
 		}
 	});
+	
+	
 	$("input[name='understandabilitySubMet']").on("change", function() {
 		if(!this.checked) {
 			$("input[id='understandability']").prop('checked',false);
@@ -39,6 +40,8 @@ $(function() {
 			}
 		}
 	});
+	
+	
 	$("input[name='consistencySubMet']").on("change", function() {
 		if(!this.checked) {
 			$("input[id='consistency']").prop('checked',false);
@@ -54,6 +57,8 @@ $(function() {
 			}
 		}
 	});
+	
+	
 	$("input[name='accuracySubMet']").on("change", function() {
 		if(!this.checked) {
 			$("input[id='accuracy']").prop('checked',false);
@@ -64,6 +69,8 @@ $(function() {
 			}
 		}
 	});
+	
+	
 	$("input[name='accessMethodRadio']").on("change", function(){
 	
 	});
